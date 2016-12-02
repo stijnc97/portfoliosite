@@ -1,23 +1,45 @@
+$hoofdkleur: rgb(225,225,225);
+$bijkleur: rgb(0,139,139);
 body {
       padding: 25px;
       font-family: helvetica, sans-serif;
+      background-color: $hoofdkleur;
 }
 
 .pure-g {
-      border: 5px solid orange;
       margin-bottom: 25px;
 }
 
 .pure-u-1 {
-      box-sizing: border-box;
-      border: 5px solid cadetblue;
       padding: 25px;
+      margin-top: 5vh;
       text-align: center;
+      background-color:white;
+      border-radius: 10px;
+      box-sizing: border-box;
+}
+.header{margin: 0;}
+.header ul{
+  padding-top: 3vh;
+}
+ul{border-top: 1px solid lightgray;}
+li{
+  display:inline;
+  padding: 0vw 2.5vw;
+}
+a:hover{
+  color:$bijkleur;
+  font-weight: bold;
+ }
+a{
+  text-decoration: none;
+  color: black;
 }
 
 h1 {
       font-size: 1.2em;
       font-weight: 900;
+      color: $bijkleur;
 }
 
 h2 {
@@ -36,7 +58,9 @@ ul {
       list-style-type: none;
       padding: 0;
 }
-
+.ondertitel{
+  text-align: center;
+}
 @media (max-width: 48em) {
       li a {
             color: red;
