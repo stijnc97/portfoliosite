@@ -10,10 +10,10 @@ body {
 .pure-g {
       margin-bottom: 25px;
 }
-
+.correctie{margin: 0vh -2.5vw 0vh 1vw;}
 .pure-u-1 {
       padding: 25px;
-      margin: 5vh -2.5vw 0vh 1vw;
+      margin-top: 5vh;
       text-align: center;
       background-color:$contextkleur;
       border-radius: 10px;
@@ -23,6 +23,15 @@ body {
 .header ul{
   padding-top: 3vh;
 }
+form{
+  text-align: left;
+  padding: 10px 40%;
+  font-weight: 600;
+}
+input, textarea{
+  margin: 1vh 0;
+  border-radius: 5px;
+ }
 ul{border-top: 1px solid lightgray;}
 li{
   display:inline;
