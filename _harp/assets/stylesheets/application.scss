@@ -1,5 +1,6 @@
-$hoofdkleur: rgb(225,225,225);
+$hoofdkleur: rgb(55,55,55);
 $bijkleur: rgb(0,139,139);
+$contextkleur: rgb(225,225,225);
 body {
       padding: 25px;
       font-family: helvetica, sans-serif;
@@ -12,9 +13,9 @@ body {
 
 .pure-u-1 {
       padding: 25px;
-      margin-top: 5vh;
+      margin: 5vh -2.5vw 0vh 1vw;
       text-align: center;
-      background-color:white;
+      background-color:$contextkleur;
       border-radius: 10px;
       box-sizing: border-box;
 }
@@ -27,17 +28,18 @@ li{
   display:inline;
   padding: 0vw 2.5vw;
 }
+
 a:hover{
   color:$bijkleur;
-  font-weight: bold;
  }
 a{
   text-decoration: none;
   color: black;
+  font-weight: bold;
 }
 
 h1 {
-      font-size: 1.2em;
+      font-size: 1.7em;
       font-weight: 900;
       color: $bijkleur;
 }
@@ -58,16 +60,11 @@ ul {
       list-style-type: none;
       padding: 0;
 }
+img{width: 100%; border-radius: 10px;}
 .ondertitel{
   text-align: center;
 }
 @media (max-width: 48em) {
-      li a {
-            color: red;
-      }
+      .pure-u-1{margin: 5vh 0vw 0vh 0vw;}
 
-      li {
-            display: inline;
-            margin-right: 10px;
-      }
 }
